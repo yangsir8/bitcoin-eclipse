@@ -9,3 +9,4 @@
 * 攻击脚本（attacker_script.txt）:使用iptables的地址转发功能，将发往35.0.0.0/8的流量导向攻击主机。
 * attacker：向victim高速发送包含可控IP的addr（35.0.0.0/8）。请在victim主机中运行攻击脚本（attacker_script.txt）,将发往35.0.0.0/8的流量导向攻击主机
 * 注：在两台linux主机中分别运行victim与attacker，并将attacker连接至victim（使用connect命令），当victim的多数或全部传出连接指向攻击主机，日蚀成功。本实验只劫持受害节点的外出连接，传入连接相对简单，不予讨论。
+![image](https://github.com/yangsir8/bitcoin-eclipse/blob/main/attack.png)
